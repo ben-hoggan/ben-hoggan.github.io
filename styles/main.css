@@ -1,3 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
 h1 {
-    font-size: 40pt;
+    margin: 0px;
+}
+
+#sidebar{
+    width: 256px;
+    min-height: 100%;
+    /* background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../assets/SideBarHeaderImage.jpg"); */
+    background: linear-gradient(to bottom right, rgba(196, 0, 186, 0.6), rgba(19, 0, 226, 0.6)), url("../assets/SideBarHeaderImage.jpg");
+    background-size: cover;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    float: left;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+}
+
+#sideBarHead{
+    text-transform: uppercase;
+}
+
+#sideBarHeadTitle {
+    padding: 32px;
+    font-size: 24pt;
+    font-weight: bolder;
+    letter-spacing: 2rem;
+}
+
+#sideBarItemContainer {
+    padding: 16px;
+    font-size: 14pt;
+    color: rgba(255, 255, 255, 0.8);
+}
+#sideBarItemSelected {
+    color: rgba(255, 255, 255, 1);
+}
+.sideBarItem {
+    padding: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    transition: 0.5s;
+}
+.sideBarItem:hover {
+    color: rgba(255, 255, 255, 1);
+}
+.sideBarItemIcon {
+    width: 16px;
+    height: 16px;
+    filter: invert(100%);
+    margin-right: 16px;
+}
+
+#pageContentContainer {
+    background-color: rgb(236, 236, 236);
+    min-height: 100%;
+    margin-left: 256px;
+    padding: 24px;
+}
+
+#pageContent {
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    padding: 22px;
 }

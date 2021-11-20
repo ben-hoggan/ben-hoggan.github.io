@@ -1,9 +1,44 @@
 <html>
   <head>
     <title>My blog</title>
+    <link rel="stylesheet" href="styles/main.css">
   <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1> 
-    <p> This is the beginning of my website home page.</p>
-    <p> It will eventually contain a list of links to all my blogs. </p>
+    <div id="pageContainer">
+      <div id="sideBar">
+        <div id="sideBarHead">
+          <div id="sideBarHeadTitle">
+            Te </br> bläg
+          </div>
+        </div>
+        <div id="sideBarItemContainer">
+          <div class="sideBarItem" id="sidebarItemSelected">
+            <img src="assets/home.png" class="sideBarItemIcon">
+            Home
+          </div>
+          <div class="sideBarItem">
+            <img src="assets/technical.png" class="sideBarItemIcon">
+            Tech
+          </div>
+          <div class="sideBarItem">
+            <img src="assets/core.png" class="sideBarItemIcon">
+            Core
+          </div>
+          <div class="sideBarItem">
+            <img src="assets/learningPlan.png" class="sideBarItemIcon">
+            Learning Plan
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pageContentContainer">
+      <div id="pageContent">
+        <h1>
+          Welcome to my blog's home page!
+        </h1>
+        <p>
+          Hello all! Please select a link on the left to see the relevant content of the blog!
+        </p>
+      </div>
+    </div>
   </body>
 </html>
