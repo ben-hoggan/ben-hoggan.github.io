@@ -1,9 +1,13 @@
-<html>
+<html lang="en">
   <head>
-    <title>My blog</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Te Bläg</title>
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
   <body>
     <div id="pageContainer">
+      <!-- START SIDEBAR TO BE COPIED TO OTHER PAGES -->
       <div id="sideBar">
         <div id="sideBarHead">
           <div id="sideBarHeadTitle">
@@ -11,33 +15,42 @@
           </div>
         </div>
         <div id="sideBarItemContainer">
-          <div class="sideBarItem" id="sidebarItemSelected">
-            <img src="assets/home.png" class="sideBarItemIcon">
-            Home
-          </div>
-          <div class="sideBarItem">
-            <img src="assets/technical.png" class="sideBarItemIcon">
-            Tech
-          </div>
-          <div class="sideBarItem">
-            <img src="assets/core.png" class="sideBarItemIcon">
-            Core
-          </div>
-          <div class="sideBarItem">
-            <img src="assets/learningPlan.png" class="sideBarItemIcon">
-            Learning Plan
-          </div>
+          <a href="../index.html">
+            <div class="sideBarItem" id="sidebarItemSelected">
+              <img src="assets/home.png" class="sideBarItemIcon">
+              Home
+            </div>
+          </a>
+          <a href="./blog/tech.html">
+            <div class="sideBarItem">
+              <img src="assets/technical.png" class="sideBarItemIcon">
+              Technical
+            </div>
+          </a>
+          <a href="./blog/identity-values.html">
+            <div class="sideBarItem">
+              <img src="assets/core.png" class="sideBarItemIcon">
+              Identity and Values
+            </div>
+          </a>
+          <a href="./blog/learning-plan.html">
+            <div class="sideBarItem">
+              <img src="assets/learningPlan.png" class="sideBarItemIcon">
+              Learning Plan
+            </div>
+          </a>
         </div>
       </div>
-    </div>
-    <div id="pageContentContainer">
-      <div id="pageContent">
-        <h1>
-          Welcome to my blog's home page!
-        </h1>
-        <p>
-          Hello all! Please select a link on the left to see the relevant content of the blog!
-        </p>
+      <!-- END SIDEBAR -->
+      <div id="pageContentContainer">
+        <div id="pageContent">
+          <h1>
+            Welcome to my blog's home page!
+          </h1>
+          <p>
+            Hello all! Please select a link on the left to see the relevant content of the blog!
+          </p>
+        </div>
       </div>
     </div>
   </body>
