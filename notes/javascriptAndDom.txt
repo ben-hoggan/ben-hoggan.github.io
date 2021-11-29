@@ -1,0 +1,23 @@
+As if talking to a Non-technical friend, discuss:
+
+Non-technical could mean writing this as if it was a blog post you would have wanted to read when you first started learning these concepts, or to a friend who wants a better understanding of what you are learning.
+
+An analogy to describe the differences between HTML and CSS
+If a website is a house then HTML is what we want the contents of the house to be, CSS is how we position, color and decorate the contents of the house.
+
+Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'. (But not those ones).
+Every evening you will have a set list of things to do before bed, e.g. eat dinner, watch TV to relax, dress for bed, get into bed, go to sleep.
+We could think of this as an array (ordered set) of things we need to do before bed.
+We could then loop through this array of before sleep activities, completing one as a time till we are in bed sleeping.
+
+Describe what the DOM is and an example of how you might interact with it.
+DOM (Document Object Model) is a programming interface for interacting and changing what we might see in our browser.
+You might use it to search for classes on a page or test a page's functionality.
+
+Explain the difference between accessing data from arrays and objects.
+Arrays have an index from 0 to the length of the array - 1; you can access an item in an array using it's index position in the array.
+Objects have key value pairs; you access the value using the key associated with it.
+
+Explain what functions are and why they are useful.
+A function is a block of code with a set of actions to be followed upon being called (activated).
+They are useful for having an interactive site, e.g. when you click a button on a website, do all these things.

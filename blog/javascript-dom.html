@@ -7,7 +7,6 @@
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
   <body>
     <div id="pageContainer">
-      
       <!-- START SIDEBAR TO BE COPIED TO OTHER PAGES -->
       <div id="sideBar">
         <div id="sideBarHead">
@@ -23,7 +22,7 @@
             </div>
           </a>
           <a href="tech.html">
-            <div class="sideBarItem" id="sidebarItemSelected">
+            <div class="sideBarItem">
               <img src="../assets/technical.png" class="sideBarItemIcon">
               Technical
             </div>
@@ -47,7 +46,7 @@
             </div>
           </a>
           <a href="javascript-dom.html">
-            <div class="sideBarItem">
+            <div class="sideBarItem" id="sidebarItemSelected">
               <img src="../assets/js.png" class="sideBarItemIcon">
               Javascript DOM
             </div>
@@ -57,35 +56,50 @@
       <!-- END SIDEBAR -->
       <div id="pageContentContainer">
         <div id="pageContent">
-          <h2>
-            What are the best practices associated with using classes vs. ids?
-          </h2>
+          <h1>
+            Javascript DOM
+          </h1>
+
           <h3>
-            Introduction
+            An analogy to describe the differences between HTML and CSS
           </h3>
           <p>
-            Webpages are made up of "elements". An element on a webpage could be a body of text, a title, an image or anything else you might see on a website.
-            After a web developer adds one of these elements to a page they can style it to change it's shape, location and overall look.
-            To assign a style to an element a developer will either assign it a "Class" or an "ID". 
+            If a website is a house then HTML is what we want the contents of the house to be, CSS is how we position, color and decorate the contents of the house.
           </p>
+
           <h3>
-            Classes
+            Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'. (But not those ones).
           </h3>
           <p>
-            A developer can add a class style to an element and/or multiple elements on a page. This can be especially useful when you want lots of elements to look the same. Assigning multiple elements the same class will make the visually similar.
+            Every evening you will have a set list of things to do before bed, e.g. eat dinner, watch TV to relax, dress for bed, get into bed, go to sleep.
+            We could think of this as an array (ordered set) of things we need to do before bed.
+            We could then loop through this array of before sleep activities, completing one as a time till we are in bed sleeping.
           </p>
+
           <h3>
-            IDs
+            Describe what the DOM is and an example of how you might interact with it.
           </h3>
           <p>
-            A developer can add an ID to an element. This ID is meant to only be used on a single element on a page. This can be especially useful when you might need to single out a specific element on a page, for example to change it dynamically without changing other elements on the page.
+            DOM (Document Object Model) is a programming interface for interacting and changing what we might see in our browser.
+            You might use it to search for classes on a page or test a page's functionality.
           </p>
+
           <h3>
-            Conclusion
+            Explain the difference between accessing data from arrays and objects.
           </h3>
           <p>
-            Use classes to style your page. Only use an ID when you will need to interact with a single element on a page.
+            Arrays have an index from 0 to the length of the array - 1; you can access an item in an array using it's index position in the array.
+            Objects have key value pairs; you access the value using the key associated with it.
           </p>
+
+          <h3>
+            Explain what functions are and why they are useful.
+          </h3>
+          <p>
+            A function is a block of code with a set of actions to be followed upon being called (activated).
+            They are useful for having an interactive site, e.g. when you click a button on a website, do all these things.
+          </p>
+
         </div>
       </div>
     </div>
