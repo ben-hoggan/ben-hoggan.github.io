@@ -1,0 +1,50 @@
+Tell your non-tech friend a story about a time you:
+
+Got blocked on a simple problem.
+
+What was the problem?
+I was attempting to declare an object variable, it was not working and the error message was nonsensical.
+
+What problem solving techniques did you use?
+I attempted to Google but this was not helpful as the error message did not make sense.
+I console logged, everything looked like it should.
+Lastly I asked a peer for assistance, they pointed out an obvious syntax error in my code.
+
+How did you feel throughout the process?
+Did not feel upset in any way while trying to fix the issue.
+However, after it was resolved, I was annoyed because it was something I should have already known.
+
+What did you learn?
+How to correctly declare an object.
+
+
+Solved a problem in an elegant way.
+
+What was the problem?
+The unjumble function in the JS Olympics which reverses string characters.
+
+What problem solving techniques did you use?
+Trying something, came up with a solution but it was junky with too many lines.
+Improving your process with reflection, tried to see where I could reduce lines of code.
+Googling, found an even better solution to the same problem online and used that.
+
+How did you feel throughout the process?
+Felt good finding and using a clean solution to the problem.
+Didn't feel good that I couldn't know the best solution right away.
+
+What did you learn?
+How to Google for better solutions.
+How to use JS methods better.
+
+
+Reflect on how confident you feel using the problem solving techniques and process:
+
+Pseudocode: Confident.
+Trying something: Confident.
+Rubber ducky method: Have not tried this yet as the other techniques are enough to get me through.
+Reading error messages: Confident.
+Console.logging: Confident.
+Googling: Confident.
+Asking your peers for help: Other techniques were enough to get me through this time, when needed I'm sure I will be able to request assistance.
+Asking coaches for help: Other techniques were enough to get me through this time, when needed I'm sure I will be able to request assistance.
+Improving your process with reflection: Confident.
