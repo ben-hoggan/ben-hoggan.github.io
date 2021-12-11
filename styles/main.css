@@ -16,7 +16,7 @@ a, a:hover, a:focus, a:active {
 }
 
 #sidebar{
-    width: 288px;
+    width: 320px;
     min-height: 100%;
     background: linear-gradient(to bottom right, rgba(196, 0, 186, 0.6), rgba(19, 0, 226, 0.6)), url("../assets/SideBarHeaderImage.jpg");
     background-size: cover;
@@ -66,7 +66,7 @@ a, a:hover, a:focus, a:active {
 #pageContentContainer {
     background-color: rgb(236, 236, 236);
     min-height: 100%;
-    margin-left: 288px;
+    margin-left: 320px;
     padding: 24px;
 }
 

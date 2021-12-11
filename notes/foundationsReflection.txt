@@ -1,0 +1,20 @@
+Reflection
+Utilising your journal findings and the high-level overview of the Core learnings you have covered in Foundations - answer each of the following questions:
+
+What are three new things you have learnt about yourself and your ego as a result of the core learning?
+I learn more about my values and identity. I solidified my understanding on what a growth mindset is and how neuroplasticity works. I learnt the value of EQ in a working environment.
+
+What are the role of values, empathy, and self awareness in learning and programming?
+They help with coding in a real work environment. Having these skills will improve team skills and coding is usually done as a team.
+
+What has surprised you the most about the core learning?
+How much I enjoyed researching the core topics. I had heard Dev Academy had these core lessons, I was at first unsure of them but open minded but now I agree with the teachings.
+
+What were the most challenging aspects of the core learning?
+Self reflection. With code we had the terminal or an error message to explain if we had made an error, with core learning it is a lot more difficult to evaluate.
+
+Why do you think that we, a programming school, are spending so much time focusing on core learning in a web development bootcamp course?
+To my knowledge this is a practical programming school, focusing on getting it's students into the workforce as soon as possible. I think there would be evidence to show the value of the core learnings which drives Dev Academy to continue teaching it.
+
+Does the time you spent studying core learning here feel like a waste of time? Should you have just used that time to practise programming instead? Justify your answer.
+Time spent studying core learning here did not feel like a waste of time. I think they were valuable lessons and I believe they will be helpful skills to have when applying for programming positions.
